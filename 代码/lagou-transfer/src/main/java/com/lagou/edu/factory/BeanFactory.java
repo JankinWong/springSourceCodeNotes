@@ -50,7 +50,6 @@ public class BeanFactory {
                 map.put(id,o);
 
             }
-
             // 实例化完成之后维护对象的依赖关系，检查哪些对象需要传值进入，根据它的配置，我们传入相应的值
             // 有property子元素的bean就有传值需求
             List<Element> propertyList = rootElement.selectNodes("//property");

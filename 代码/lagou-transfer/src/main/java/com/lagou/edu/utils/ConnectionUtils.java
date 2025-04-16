@@ -8,7 +8,7 @@ import java.sql.SQLException;
  */
 public class ConnectionUtils {
 
-    /*private ConnectionUtils() {
+    private ConnectionUtils() {
 
     }
 
@@ -16,7 +16,7 @@ public class ConnectionUtils {
 
     public static ConnectionUtils getInstance() {
         return connectionUtils;
-    }*/
+    }
 
 
     private ThreadLocal<Connection> threadLocal = new ThreadLocal<>(); // 存储当前线程的连接

@@ -13,7 +13,6 @@ public class Animal {
     public void eat(){
 
 
-
         // 业务逻辑代码
         System.out.println("I can eat...");
 

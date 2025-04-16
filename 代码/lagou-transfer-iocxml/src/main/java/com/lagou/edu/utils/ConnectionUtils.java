@@ -23,9 +23,6 @@ public class ConnectionUtils {
     }*/
 
 
-
-
-
     private ThreadLocal<Connection> threadLocal = new ThreadLocal<>(); // 存储当前线程的连接
 
     /**

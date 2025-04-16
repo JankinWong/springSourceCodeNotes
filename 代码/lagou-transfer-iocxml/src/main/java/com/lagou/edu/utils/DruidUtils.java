@@ -17,7 +17,7 @@ public class DruidUtils {
         druidDataSource.setDriverClassName("com.mysql.jdbc.Driver");
         druidDataSource.setUrl("jdbc:mysql://localhost:3306/bank");
         druidDataSource.setUsername("root");
-        druidDataSource.setPassword("123456");
+        druidDataSource.setPassword("WZY920728wzy");
 
     }
 

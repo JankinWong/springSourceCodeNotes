@@ -32,7 +32,7 @@
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
-      <version>5.1.35</version>
+      <version>8.0.28</version>
     </dependency>
     <!--druid连接池-->
     <dependency>
@@ -96,11 +96,11 @@
     </dependency>
 
     <!--spring对junit测试的支持-->
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-test</artifactId>
-      <version>5.1.12.RELEASE</version>
-    </dependency>
+<!--    <dependency>-->
+<!--      <groupId>org.springframework</groupId>-->
+<!--      <artifactId>spring-test</artifactId>-->
+<!--      <version>5.1.12.RELEASE</version>-->
+<!--    </dependency>-->
 
 
     <!--spring aop的jar包支持-->

@@ -18,14 +18,14 @@
                 singleton：单例，IOC容器中只有一个该类对象，默认为singleton
                 prototype：原型(多例)，每次使用该类的对象（getBean），都返回给你一个新的对象，Spring只创建对象，不管理对象
     -->
-    <bean id="accountDao" class="com.lagou.edu.dao.impl.JdbcTemplateDaoImpl" scope="singleton" init-method="init" destroy-method="destory">
+    <bean id="accountDao" class="com.lagou.edu.dao.impl.JdbcAccountDaoImpl" scope="singleton" init-method="init" destroy-method="destory">
 
 
         <!--set注入使用property标签，如果注入的是另外一个bean那么使用ref属性，如果注入的是普通值那么使用的是value属性-->
-        <!--<property name="ConnectionUtils" ref="connectionUtils"/>
+        <property name="ConnectionUtils" ref="connectionUtils"/>
         <property name="name" value="zhangsan"/>
         <property name="sex" value="1"/>
-        <property name="money" value="100.3"/>-->
+        <property name="money" value="100.3"/>
 
 
         <!--<constructor-arg index="0" ref="connectionUtils"/>
@@ -82,26 +82,26 @@
 
 
     <!--事务管理器-->
-    <bean id="transactionManager" class="com.lagou.edu.utils.TransactionManager">
-        <property name="ConnectionUtils" ref="connectionUtils"/>
-    </bean>
+<!--    <bean id="transactionManager" class="com.lagou.edu.utils.TransactionManager">-->
+<!--        <property name="ConnectionUtils" ref="connectionUtils"/>-->
+<!--    </bean>-->
 
     <!--代理对象工厂-->
-    <bean id="proxyFactory" class="com.lagou.edu.factory.ProxyFactory">
-        <property name="TransactionManager" ref="transactionManager"/>
-    </bean>
+<!--    <bean id="proxyFactory" class="com.lagou.edu.factory.ProxyFactory">-->
+<!--        <property name="TransactionManager" ref="transactionManager"/>-->
+<!--    </bean>-->
 
 
     <!--Spring ioc 实例化Bean的三种方式-->
     <!--方式一：使用无参构造器（推荐）-->
-    <bean id="connectionUtils" class="com.lagou.edu.utils.ConnectionUtils"></bean>
+<!--    <bean id="connectionUtils" class="com.lagou.edu.utils.ConnectionUtils"></bean>-->
 
     <!--另外两种方式是为了我们自己new的对象加入到SpringIOC容器管理-->
     <!--方式二：静态方法-->
-    <!--<bean id="connectionUtils" class="com.lagou.edu.factory.CreateBeanFactory" factory-method="getInstanceStatic"/>-->
+<!--    <bean id="connectionUtils" class="com.lagou.edu.factory.CreateBeanFactory" factory-method="getInstanceStatic"/>-->
     <!--方式三：实例化方法-->
-    <!--<bean id="createBeanFactory" class="com.lagou.edu.factory.CreateBeanFactory"></bean>
-    <bean id="connectionUtils" factory-bean="createBeanFactory" factory-method="getInstance"/>-->
+    <bean id="createBeanFactory" class="com.lagou.edu.factory.CreateBeanFactory"></bean>
+    <bean id="connectionUtils" factory-bean="createBeanFactory" factory-method="getInstance"/>
 
 
 

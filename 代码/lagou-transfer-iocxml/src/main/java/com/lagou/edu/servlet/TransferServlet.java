@@ -34,13 +34,12 @@ public class TransferServlet extends HttpServlet {
 
     @Override
     public void init() throws ServletException {
-        WebApplicationContext webApplicationContext = WebApplicationContextUtils.getWebApplicationContext(this.getServletContext());
-        transferService = (TransferService) webApplicationContext.getBean("transferService");
+//        WebApplicationContext webApplicationContext = WebApplicationContextUtils.getWebApplicationContext(this.getServletContext());
+//        transferService = (TransferService) webApplicationContext.getBean("transferService");
 
-
-       /* WebApplicationContext webApplicationContext = WebApplicationContextUtils.getWebApplicationContext(this.getServletContext());
+       WebApplicationContext webApplicationContext = WebApplicationContextUtils.getWebApplicationContext(this.getServletContext());
         ProxyFactory proxyFactory = (ProxyFactory)webApplicationContext.getBean("proxyFactory");
-        transferService = (TransferService) proxyFactory.getJdkProxy(webApplicationContext.getBean("transferService")) ;*/
+        transferService = (TransferService) proxyFactory.getJdkProxy(webApplicationContext.getBean("transferService")) ;
     }
 
     @Override

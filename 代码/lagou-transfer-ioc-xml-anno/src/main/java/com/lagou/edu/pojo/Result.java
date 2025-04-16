@@ -66,6 +66,10 @@ public class Result implements BeanNameAware,BeanFactoryAware,ApplicationContext
     public void initMethod() {
         System.out.println("init-method....");
     }
+    public void destoryMethod(){
+        System.out.println("destory-method.....");
+    }
+
 
     @PostConstruct
     public void postCoustrcut() {

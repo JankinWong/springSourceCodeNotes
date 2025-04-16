@@ -27,9 +27,6 @@ public class ProxyFactory {
     @Autowired
     private TransactionManager transactionManager;
 
-
-
-
     /**
      * Jdk动态代理
      * @param obj  委托对象

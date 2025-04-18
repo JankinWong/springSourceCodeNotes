@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:aop="http://www.springframework.org/schema/aop"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="
+	    http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        https://www.springframework.org/schema/aop/spring-aop.xsd
+">
+
+	<!--循环依赖问题-->
+<!--	<bean id="lagouBean" class="com.lagou.edu.LagouBean">-->
+<!--		<property name="ItBean" ref="itBean"/>-->
+<!--	</bean>-->
+<!--	<bean id="itBean" class="com.lagou.edu.ItBean">-->
+<!--		<property name="LagouBean" ref="lagouBean"/>-->
+<!--	</bean>-->
+
+
+<!--	<bean id="myBeanFactoryPostProcessor" class="com.lagou.edu.MyBeanFactoryPostProcessor"/>-->
+<!--	<bean id="myBeanPostProcessor" class="com.lagou.edu.MyBeanPostProcessor"/>-->
+
+
+<!--	<bean id="lagouBean" class="com.lagou.edu.LagouBean">-->
+<!--	</bean>-->
+
+
+	<!--aop配置-->
+	<!--横切逻辑-->
+<!--	<bean id="logUtils" class="com.lagou.edu.LogUtils">-->
+<!--	</bean>-->
+
+<!--	<aop:config>-->
+<!--		<aop:aspect ref="logUtils">-->
+<!--			<aop:before method="beforeMethod" pointcut="execution(public void com.lagou.edu.LagouBean.print())"/>-->
+<!--		</aop:aspect>-->
+<!--	</aop:config>-->
+
+<!--	<bean id="AopLog" class="com.lagou.edu.aop.aspectj.AopLog">-->
+<!--	</bean>-->
+
+<!--	<aop:config>-->
+<!--		&lt;!&ndash; 引用xmlAspect作为切面 &ndash;&gt;-->
+<!--		<aop:aspect ref="AopLog">-->
+<!--			&lt;!&ndash; 定义切点 &ndash;&gt;-->
+<!--			<aop:pointcut id="log" expression="execution(public * com.lagou.edu.log.aop.controller.*Controller.*(..))"/>-->
+<!--			&lt;!&ndash; 定义通知，引入切点 &ndash;&gt;-->
+<!--			<aop:before method="beforeLog" pointcut-ref="log"/>-->
+<!--			<aop:after method="afterLog" pointcut-ref="log"/>-->
+<!--			<aop:around method="aroundLog" pointcut-ref="log"/>-->
+<!--		</aop:aspect>-->
+<!--	</aop:config>-->
+
+
+
+<!--	<bean id="address" class="com.lagou.edu.ioc.beans.Address">-->
+<!--		<property name="city" value="zz"/>-->
+<!--		<property name="street" value="AB"/>-->
+<!--	</bean>-->
+
+<!--	<bean id="person" class="com.lagou.edu.ioc.beans.Person">-->
+<!--		<property name="id" value="1"/>-->
+<!--		<property name="name" value="zhangsan"/>-->
+<!--		<property name="age" value="18"/>-->
+<!--		<property name="address" ref="address"/>-->
+<!--	</bean>-->
+
+	<!--	在Spring的XML配置中，<property>标签用于为Bean的属性赋值。
+Spring通过反射调用对象的setter方法来完成属性注入。即使XML中配置了property，
+如果没有对应的setter方法，Spring也无法将值注入到对象中。-->
+
+	<!--    原因分析-->
+	<!--    Spring的工作原理：Spring容器在实例化Bean后，会根据XML中的<property>配置，通过反射调用Bean的setter方法，将指定的值设置到对应属性中。-->
+	<!--    缺少setter方法的影响：如果Bean类中没有提供符合Java Bean规范的setter方法（即setXXX形式的方法），Spring无法完成属性注入，从而抛出类似NotWritablePropertyException的异常-->
+
+	<!--    <property> 标签 —— Spring配置文件里的标签，告诉 Spring 容器：“嘿，我要给这个 Bean 的某个属性注入一个值！”-->
+	<!--    Setter 方法 —— Java 类中实际定义的方法，负责接收这个值-->
+
+	<!--    Spring 本质上是通过反射调用 setter 方法来实现依赖注入的（Setter Injection）：-->
+	<!--    反射机制：-->
+	<!--    Spring读取 <property name="name">。-->
+	<!--    通过 Java Bean 规范推导出 setName() 方法。-->
+	<!--    找到后，调用 setName()，完成注入。-->
+
+
+	<!--    其他注入方式也是类似的(比如<constructor-arg>标签)，只是使用不同的标签和属性来配置依赖注入。-->
+
+
+	<!--    总结-->
+	<!--    Spring的 <property> 只是“告诉Spring要设置什么”，
+	Setter方法是“Spring实际帮你设置的工具”。没有setter方法，Spring再聪明也没法帮你赋值！-->
+
+	<!--    <context:component-scan base-package="com.wzy.xml"/>-->
+
+	<!--    Spring XML 配置文件中的 <context:component-scan> 标签用于自动扫描指定包路径下的类，并将标记了特定注解的类注册为 Spring Bean，从而减少手动配置 <bean> 标签的工作量。以下是其核心功能和应用细节：-->
+
+	<!--    一、核心作用-->
+	<!--    1.自动探测与注册 Bean-->
+	<!--    扫描指定包及其子包下的类，识别标记了 @Component、@Service、@Repository、@Controller 等注解的类，自动将其注册到 Spring IoC 容器中。-->
+
+	<!--    2.替代手动配置-->
+	<!--    无需在 XML 中逐个定义 <bean> 标签，只需通过注解声明和扫描包路径即可管理 Bean。-->
+
+	<!--    3.支持过滤规则-->
+	<!--    可通过 <include-filter> 和 <exclude-filter> 子标签自定义扫描策略，精确控制哪些类需要注册或排除。-->
+
+
+
+
+
+
+</beans>

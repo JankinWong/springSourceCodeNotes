@@ -1,0 +1,924 @@
+{
+  "bottomPanel": {
+    "config": {
+      "main": {
+        "type": "tab-area",
+        "widgets": [
+          {
+            "constructionOptions": {
+              "factoryId": "problems"
+            },
+            "innerWidgetState": {}
+          }
+        ],
+        "currentIndex": 0
+      }
+    },
+    "expanded": false
+  },
+  "leftPanel": {
+    "type": "sidepanel",
+    "items": [
+      {
+        "widget": {
+          "constructionOptions": {
+            "factoryId": "explorer-view-container"
+          },
+          "innerWidgetState": {
+            "parts": [
+              {
+                "widget": {
+                  "constructionOptions": {
+                    "factoryId": "files"
+                  },
+                  "innerWidgetState": {
+                    "decorations": {
+                      "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x": [
+                        {
+                          "fontData": {
+                            "color": "rgba(255, 148, 0, .5)"
+                          }
+                        }
+                      ],
+                      "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou": [
+                        {
+                          "fontData": {
+                            "color": "rgba(255, 148, 0, .5)"
+                          }
+                        }
+                      ],
+                      "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src": [
+                        {
+                          "fontData": {
+                            "color": "rgba(255, 148, 0, .5)"
+                          }
+                        }
+                      ],
+                      "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/test": [
+                        {
+                          "fontData": {
+                            "color": "rgba(255, 148, 0, .5)"
+                          }
+                        }
+                      ],
+                      "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/test/java": [
+                        {
+                          "fontData": {
+                            "color": "rgba(255, 148, 0, .5)"
+                          }
+                        }
+                      ],
+                      "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/test/java/IocTest.java": [
+                        {
+                          "fontData": {
+                            "color": "rgba(255, 148, 0, 1)"
+                          }
+                        }
+                      ]
+                    },
+                    "root": {
+                      "id": "WorkspaceNodeId",
+                      "name": "WorkspaceNode",
+                      "children": [
+                        {
+                          "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x",
+                          "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x",
+                          "expanded": true,
+                          "selected": false,
+                          "children": [
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/.codemap",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/.codemap",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/.github",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/.github",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/.gradle",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/.gradle",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/.idea",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/.idea",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/build",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/build",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/buildSrc",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/buildSrc",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/ci",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/ci",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/framework-bom",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/framework-bom",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/gradle",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/gradle",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/integration-tests",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/integration-tests",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-aop",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-aop",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-aspects",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-aspects",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-beans",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-beans",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-context",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-context",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-context-indexer",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-context-indexer",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-context-support",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-context-support",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-core",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-core",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-expression",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-expression",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-instrument",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-instrument",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-jcl",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-jcl",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-jdbc",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-jdbc",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-jms",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-jms",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou",
+                              "expanded": true,
+                              "selected": false,
+                              "children": [
+                                {
+                                  "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/out",
+                                  "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/out",
+                                  "expanded": false,
+                                  "selected": false,
+                                  "children": [],
+                                  "stat": {
+                                    "type": 2
+                                  }
+                                },
+                                {
+                                  "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src",
+                                  "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src",
+                                  "expanded": true,
+                                  "selected": false,
+                                  "children": [
+                                    {
+                                      "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/main",
+                                      "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/main",
+                                      "expanded": true,
+                                      "selected": false,
+                                      "children": [
+                                        {
+                                          "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/main/java",
+                                          "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/main/java",
+                                          "expanded": true,
+                                          "selected": false,
+                                          "children": [
+                                            {
+                                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/main/java/com",
+                                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/main/java/com",
+                                              "expanded": true,
+                                              "selected": false,
+                                              "children": [
+                                                {
+                                                  "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/main/java/com/lagou",
+                                                  "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/main/java/com/lagou",
+                                                  "expanded": true,
+                                                  "selected": false,
+                                                  "children": [
+                                                    {
+                                                      "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/main/java/com/lagou/edu",
+                                                      "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/main/java/com/lagou/edu",
+                                                      "expanded": true,
+                                                      "selected": false,
+                                                      "children": [
+                                                        {
+                                                          "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/main/java/com/lagou/edu/ItBean.java",
+                                                          "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/main/java/com/lagou/edu/ItBean.java",
+                                                          "selected": false,
+                                                          "stat": {
+                                                            "type": 1
+                                                          }
+                                                        },
+                                                        {
+                                                          "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/main/java/com/lagou/edu/LagouBean.java",
+                                                          "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/main/java/com/lagou/edu/LagouBean.java",
+                                                          "selected": false,
+                                                          "stat": {
+                                                            "type": 1
+                                                          }
+                                                        },
+                                                        {
+                                                          "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/main/java/com/lagou/edu/LogUtils.java",
+                                                          "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/main/java/com/lagou/edu/LogUtils.java",
+                                                          "selected": false,
+                                                          "stat": {
+                                                            "type": 1
+                                                          }
+                                                        },
+                                                        {
+                                                          "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/main/java/com/lagou/edu/MyBeanFactoryPostProcessor.java",
+                                                          "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/main/java/com/lagou/edu/MyBeanFactoryPostProcessor.java",
+                                                          "selected": false,
+                                                          "stat": {
+                                                            "type": 1
+                                                          }
+                                                        },
+                                                        {
+                                                          "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/main/java/com/lagou/edu/MyBeanPostProcessor.java",
+                                                          "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/main/java/com/lagou/edu/MyBeanPostProcessor.java",
+                                                          "selected": false,
+                                                          "stat": {
+                                                            "type": 1
+                                                          }
+                                                        }
+                                                      ],
+                                                      "stat": {
+                                                        "type": 2,
+                                                        "ctime": 1689287972271,
+                                                        "mtime": 1689380462825,
+                                                        "size": 224
+                                                      }
+                                                    }
+                                                  ],
+                                                  "stat": {
+                                                    "type": 2,
+                                                    "ctime": 1689287927637,
+                                                    "mtime": 1689287972271,
+                                                    "size": 96
+                                                  }
+                                                }
+                                              ],
+                                              "stat": {
+                                                "type": 2,
+                                                "ctime": 1689287927634,
+                                                "mtime": 1689287927637,
+                                                "size": 96
+                                              }
+                                            }
+                                          ],
+                                          "stat": {
+                                            "type": 2,
+                                            "ctime": 1689287587276,
+                                            "mtime": 1689287927634,
+                                            "size": 96
+                                          }
+                                        },
+                                        {
+                                          "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/main/resources",
+                                          "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/main/resources",
+                                          "expanded": false,
+                                          "selected": false,
+                                          "children": [],
+                                          "stat": {
+                                            "type": 2
+                                          }
+                                        }
+                                      ],
+                                      "stat": {
+                                        "type": 2,
+                                        "ctime": 1689287587273,
+                                        "mtime": 1689287587288,
+                                        "size": 128
+                                      }
+                                    },
+                                    {
+                                      "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/test",
+                                      "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/test",
+                                      "expanded": true,
+                                      "selected": false,
+                                      "children": [
+                                        {
+                                          "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/test/java",
+                                          "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/test/java",
+                                          "expanded": true,
+                                          "selected": false,
+                                          "children": [
+                                            {
+                                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/test/java/IocTest.java",
+                                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/test/java/IocTest.java",
+                                              "selected": true,
+                                              "focus": true,
+                                              "stat": {
+                                                "type": 1
+                                              }
+                                            }
+                                          ],
+                                          "focus": false,
+                                          "stat": {
+                                            "type": 2,
+                                            "ctime": 1689287587223,
+                                            "mtime": 1689381099402,
+                                            "size": 96
+                                          }
+                                        },
+                                        {
+                                          "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/test/resources",
+                                          "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/test/resources",
+                                          "expanded": false,
+                                          "selected": false,
+                                          "children": [],
+                                          "stat": {
+                                            "type": 2
+                                          }
+                                        }
+                                      ],
+                                      "stat": {
+                                        "type": 2,
+                                        "ctime": 1689287587221,
+                                        "mtime": 1689287587234,
+                                        "size": 128
+                                      }
+                                    },
+                                    {
+                                      "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/testFixtures",
+                                      "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/testFixtures",
+                                      "expanded": false,
+                                      "selected": false,
+                                      "children": [],
+                                      "stat": {
+                                        "type": 2
+                                      }
+                                    }
+                                  ],
+                                  "stat": {
+                                    "type": 2,
+                                    "ctime": 1689287587219,
+                                    "mtime": 1689287587273,
+                                    "size": 160
+                                  }
+                                },
+                                {
+                                  "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/build.gradle",
+                                  "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/build.gradle",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                }
+                              ],
+                              "stat": {
+                                "type": 2,
+                                "ctime": 1689287567741,
+                                "mtime": 1689315358722,
+                                "size": 160
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-messaging",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-messaging",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-orm",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-orm",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-oxm",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-oxm",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-test",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-test",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-tx",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-tx",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-web",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-web",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-webflux",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-webflux",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-webmvc",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-webmvc",
+                              "expanded": true,
+                              "selected": false,
+                              "children": [
+                                {
+                                  "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-webmvc/build",
+                                  "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-webmvc/build",
+                                  "expanded": false,
+                                  "selected": false,
+                                  "children": [],
+                                  "stat": {
+                                    "type": 2
+                                  }
+                                },
+                                {
+                                  "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-webmvc/src",
+                                  "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-webmvc/src",
+                                  "expanded": false,
+                                  "selected": false,
+                                  "children": [],
+                                  "stat": {
+                                    "type": 2
+                                  }
+                                },
+                                {
+                                  "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-webmvc/spring-webmvc.gradle",
+                                  "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-webmvc/spring-webmvc.gradle",
+                                  "selected": false,
+                                  "stat": {
+                                    "type": 1
+                                  }
+                                }
+                              ],
+                              "stat": {
+                                "type": 2,
+                                "ctime": 1689234715000,
+                                "mtime": 1689336363828,
+                                "size": 160
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-websocket",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-websocket",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/src",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/src",
+                              "expanded": false,
+                              "selected": false,
+                              "children": [],
+                              "stat": {
+                                "type": 2
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/.editorconfig",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/.editorconfig",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/.gitattributes",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/.gitattributes",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/.gitignore",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/.gitignore",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/.mailmap",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/.mailmap",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/build.gradle",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/build.gradle",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/CODE_OF_CONDUCT.adoc",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/CODE_OF_CONDUCT.adoc",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/CONTRIBUTING.md",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/CONTRIBUTING.md",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/gradle.properties",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/gradle.properties",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/gradlew",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/gradlew",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/gradlew.bat",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/gradlew.bat",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/import-into-eclipse.md",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/import-into-eclipse.md",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/import-into-idea.md",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/import-into-idea.md",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/LICENSE.txt",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/LICENSE.txt",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/README.md",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/README.md",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/SECURITY.md",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/SECURITY.md",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            },
+                            {
+                              "id": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/settings.gradle",
+                              "uri": "file:///Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/settings.gradle",
+                              "selected": false,
+                              "stat": {
+                                "type": 1
+                              }
+                            }
+                          ],
+                          "visible": false,
+                          "focus": false,
+                          "stat": {
+                            "type": 2,
+                            "ctime": 1689234715000,
+                            "mtime": 1695039397152,
+                            "size": 1664
+                          }
+                        }
+                      ],
+                      "visible": false,
+                      "selected": false
+                    },
+                    "model": {
+                      "selection": {
+                        "selectionStack": [
+                          {
+                            "focus": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/test/java/IocTest.java",
+                            "node": "/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x:/Users/wzy/sourceCodeNotes/spring/spring-framework-5.2.x/spring-lagou/src/test/java/IocTest.java",
+                            "type": 1
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                "partId": "{\"factoryId\":\"files\"}",
+                "collapsed": false,
+                "hidden": false,
+                "relativeSize": 1
+              },
+              {
+                "widget": {
+                  "constructionOptions": {
+                    "factoryId": "plugin-view",
+                    "options": {
+                      "id": "plugin-view:go.explorer",
+                      "viewId": "go.explorer"
+                    }
+                  },
+                  "innerWidgetState": {
+                    "label": "go",
+                    "widgets": []
+                  }
+                },
+                "partId": "{\"factoryId\":\"plugin-view\",\"options\":{\"id\":\"plugin-view:go.explorer\",\"viewId\":\"go.explorer\"}}",
+                "collapsed": true,
+                "hidden": true
+              },
+              {
+                "widget": {
+                  "constructionOptions": {
+                    "factoryId": "plugin-view",
+                    "options": {
+                      "id": "plugin-view:npm",
+                      "viewId": "npm"
+                    }
+                  },
+                  "innerWidgetState": {
+                    "label": "NPM Scripts",
+                    "widgets": []
+                  }
+                },
+                "partId": "{\"factoryId\":\"plugin-view\",\"options\":{\"id\":\"plugin-view:npm\",\"viewId\":\"npm\"}}",
+                "collapsed": true,
+                "hidden": true
+              }
+            ],
+            "title": {
+              "label": "资源树",
+              "iconClass": "codemap-files-icon",
+              "closeable": true
+            }
+          }
+        },
+        "rank": 100,
+        "expanded": true
+      },
+      {
+        "widget": {
+          "constructionOptions": {
+            "factoryId": "search-in-workspace"
+          },
+          "innerWidgetState": {
+            "matchCaseState": {
+              "className": "match-case",
+              "enabled": true,
+              "title": "Match Case"
+            },
+            "wholeWordState": {
+              "className": "whole-word",
+              "enabled": true,
+              "title": "Match Whole Word"
+            },
+            "regExpState": {
+              "className": "use-regexp",
+              "enabled": false,
+              "title": "Use Regular Expression"
+            },
+            "includeIgnoredState": {
+              "className": "include-ignored fa fa-eye",
+              "enabled": false,
+              "title": "Include Ignored Files"
+            },
+            "showSearchDetails": false,
+            "searchInWorkspaceOptions": {
+              "matchCase": true,
+              "matchWholeWord": true,
+              "useRegExp": false,
+              "includeIgnored": false,
+              "include": [],
+              "exclude": [],
+              "maxResults": 2000
+            },
+            "searchTerm": "",
+            "replaceTerm": "",
+            "showReplaceField": false
+          }
+        },
+        "rank": 200,
+        "expanded": false
+      }
+    ],
+    "size": 150
+  },
+  "rightPanel": {
+    "type": "sidepanel",
+    "items": []
+  },
+  "activeWidgetId": "undefined:search-in-workspace"
+}

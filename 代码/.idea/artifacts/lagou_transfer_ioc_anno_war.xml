@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="lagou-transfer-ioc-anno:war">
+    <output-path>$PROJECT_DIR$/lagou-transfer-ioc-anno/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>lagou-transfer-ioc-anno</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="lagou-transfer-ioc-anno-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="lagou-transfer-ioc-anno:war exploded" />
+    </root>
+  </artifact>
+</component>

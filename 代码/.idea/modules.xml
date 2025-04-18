@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo-ioc-aop/demo-ioc-aop.iml" filepath="$PROJECT_DIR$/demo-ioc-aop/demo-ioc-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-others/demo-others.iml" filepath="$PROJECT_DIR$/demo-others/demo-others.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lagou-transfer/lagou-transfer.iml" filepath="$PROJECT_DIR$/lagou-transfer/lagou-transfer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lagou-transfer-ioc-anno/lagou-transfer-ioc-anno.iml" filepath="$PROJECT_DIR$/lagou-transfer-ioc-anno/lagou-transfer-ioc-anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lagou-transfer-ioc-xml-anno/lagou-transfer-ioc-xml-anno.iml" filepath="$PROJECT_DIR$/lagou-transfer-ioc-xml-anno/lagou-transfer-ioc-xml-anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lagou-transfer-iocxml/lagou-transfer-iocxml.iml" filepath="$PROJECT_DIR$/lagou-transfer-iocxml/lagou-transfer-iocxml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/代码.iml" filepath="$PROJECT_DIR$/.idea/代码.iml" />
+    </modules>
+  </component>
+</project>
